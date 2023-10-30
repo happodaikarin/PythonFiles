@@ -28,6 +28,7 @@ class Contact:
 c1 = Contact("John A", "johna@gmail.com")
 c2 = Contact("John B", "johnb@gmail.com")
 c3 = Contact("Jenna C", "jenna@gmail.com")
+
 print([c.name for c in Contact.all_contact.search('John')])
 print([c.email for c in Contact.all_contact.search('John')])
 
